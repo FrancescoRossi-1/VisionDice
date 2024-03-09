@@ -13,6 +13,8 @@
 		31D512D62B9CFF7C00996DC7 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D512D52B9CFF7C00996DC7 /* ImmersiveView.swift */; };
 		31D512D82B9CFF7C00996DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D512D72B9CFF7C00996DC7 /* Assets.xcassets */; };
 		31D512DB2B9CFF7C00996DC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D512DA2B9CFF7C00996DC7 /* Preview Assets.xcassets */; };
+		31D512E32B9D022300996DC7 /* dice.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 31D512E22B9D022300996DC7 /* dice.usdz */; };
+		31D512E52B9D166B00996DC7 /* studio.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 31D512E42B9D166B00996DC7 /* studio.skybox */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		31D512D72B9CFF7C00996DC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31D512DA2B9CFF7C00996DC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		31D512DC2B9CFF7C00996DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31D512E22B9D022300996DC7 /* dice.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = dice.usdz; path = ../../../Downloads/assets/dice.usdz; sourceTree = "<group>"; };
+		31D512E42B9D166B00996DC7 /* studio.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = studio.skybox; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,12 @@
 		31D512CC2B9CFF7C00996DC7 /* visionDice */ = {
 			isa = PBXGroup;
 			children = (
+				31D512E42B9D166B00996DC7 /* studio.skybox */,
 				31D512D12B9CFF7C00996DC7 /* visionDiceApp.swift */,
 				31D512D32B9CFF7C00996DC7 /* ContentView.swift */,
 				31D512D52B9CFF7C00996DC7 /* ImmersiveView.swift */,
 				31D512D72B9CFF7C00996DC7 /* Assets.xcassets */,
+				31D512E22B9D022300996DC7 /* dice.usdz */,
 				31D512DC2B9CFF7C00996DC7 /* Info.plist */,
 				31D512D92B9CFF7C00996DC7 /* Preview Content */,
 			);
@@ -146,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				31D512DB2B9CFF7C00996DC7 /* Preview Assets.xcassets in Resources */,
+				31D512E32B9D022300996DC7 /* dice.usdz in Resources */,
 				31D512D82B9CFF7C00996DC7 /* Assets.xcassets in Resources */,
+				31D512E52B9D166B00996DC7 /* studio.skybox in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
